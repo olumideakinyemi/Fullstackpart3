@@ -1,0 +1,29 @@
+POST http://localhost:3001/api/persons 
+Content-Type: application/json
+
+{ 
+  "name": "Olumide Akinyemi", 
+  "number": "040-12324567" 
+}
+
+
+
+### NoName
+
+POST http://localhost:3001/api/persons 
+Content-Type: application/json
+
+{ 
+  
+  "number": "040-12324567" 
+}
+
+### NoNumber
+
+POST http://localhost:3001/api/persons 
+Content-Type: application/json
+
+{ 
+  "name": "Olumide Akinyemi" 
+   
+}
