@@ -10,7 +10,7 @@ if (process.argv.length < 3) {
 const password = process.argv[2]
 
 const url =
-  `//mongodb+srv://Olumide:${password}@cluster0.lhdxr.mongodb.net/PhonebookDatabase?retryWrites=true&w=majority`
+  `mongodb+srv://Olumide:${password}@cluster0.lhdxr.mongodb.net/PhonebookDatabase?retryWrites=true&w=majority`
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
 
