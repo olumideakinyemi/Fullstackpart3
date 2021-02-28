@@ -24,7 +24,7 @@ const Person = mongoose.model('Person', personSchema)
 
 const person = new Person({
   name: process.argv[3],
-  number: process.argv[4]
+  number: process.argv[4],
 })
 
 person.save().then(result => {
